@@ -1,0 +1,93 @@
+html {
+	height: 100%;
+	background-size: cover;
+}
+
+body {
+	text-align: center;
+	/*background-color: #FEFDF0;*/
+	height: 100%;
+	margin: 0;
+/*	background-color: white;
+*/	
+}
+
+.opq {
+	opacity:0.5;
+	filter:alpha(opacity=50);
+}
+
+.page {
+	height: 90%;
+	overflow: hidden;
+}
+
+.spacetop {
+	height: 4%;
+
+}
+
+
+.spacemiddle {
+	height: 68%;
+}
+
+.logo { 
+	width: 70%;
+	min-width: 700px;
+	height: 100%;
+  	background: url(images/logo.png) no-repeat center; 
+ 	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	display: inline-block;
+}
+
+.join {
+	font-size: 1.3em;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	margin-top: 15px;
+}
+
+.social {
+	width: 80%;
+	display: inline-block;
+}
+
+.social a {
+	margin: 0 15px;
+}
+
+.message {
+	height: 53%;
+	background-color: #FEFDF0;
+}
+
+.center {
+	text-align: center;
+}
+
+
+
+
+
+.text {
+	vertical-align: top;
+	display: inline-block;
+	width: 25%;
+	min-width: 240px;
+	margin: 0 5px;
+	top: 0;
+	height: 100%;
+	text-align: left;
+}
+
+.text p {
+	font-size: 18px;
+}
+
+.messagespace {
+	height: 5px;
+}
